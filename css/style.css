@@ -1,0 +1,139 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+  color: #333;
+}
+
+header {
+  background: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main, div {
+  padding: 20px;
+}
+
+figure img {
+  border-radius: 20px;
+  width: 300px;
+  display: block;
+  margin: 10px auto;
+}
+
+form {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+textarea {
+  height: 100px;
+}
+
+
+label {
+  font-weight: bold;
+}
+
+footer {
+  background: #4a90e2;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+#h1con{
+  background: white;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #ccc;
+}
+#h1skill{
+  background: rgb(174, 234, 205);
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #c7b0b0;
+}
+.project-card {
+  background: white;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #ccc;
+}
+
+.project-card h2,
+.project-card h3 {
+  margin: 5px 0;
+}
+
+.project-card a {
+  color: #4a90e2;
+  font-weight: bold;
+  text-decoration: none;
+  padding:15px;
+  font-size: 24px;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.pimages{
+  height: 600px;
+  border-radius: 20px;
+}
+#projectp{
+  font-size: 25px;
+  font-weight: bold;
+}
+#projecth2{
+  font-size: 30px;
+}
